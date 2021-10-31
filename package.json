@@ -98,7 +98,7 @@
     "docs:all": "rm -rf docs/all; jsdoc --configure config/jsdoc/all-conf.json",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "yarn test:unit && yarn lint && yarn docs",
+    "test": "yarn lint && yarn test:unit",
     "test:unit": "karma start --single-run --browsers ChromeHeadlessNoSandbox test/unit/karma.conf.js",
     "test:unit:min": "MIN=1 yarn test:unit",
     "test:watch": "karma start --no-single-run --auto-watch --browsers ChromeHeadlessNoSandbox test/unit/karma.conf.js",

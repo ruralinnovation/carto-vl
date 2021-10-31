@@ -1,7 +1,5 @@
 # **CARTO VL**
 
-[![CircleCI](https://circleci.com/gh/CartoDB/carto-vl.svg?style=svg)](https://circleci.com/gh/CartoDB/carto-vl)
-
 **CARTO VL** is an open source JavaScript library for developers to create vector-based visualizations inside Location Intelligence applications.
 
 ## Features

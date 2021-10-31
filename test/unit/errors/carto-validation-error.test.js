@@ -12,6 +12,13 @@ describe('errors/CartoValidationError', () => {
     });
 
     it('shouldn\'t allow an error without a message', () => {
+        console.log('Try CartoValidationError with no message');
+        try {
+            const noMessage = new CartoValidationError();
+            console.log(noMessage);
+        } catch (e) {
+            console.log(e.message);
+        }
         expect(() => new CartoValidationError()).toThrow();
     });
 
